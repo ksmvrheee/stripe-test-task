@@ -54,7 +54,7 @@ docker compose up --build
 docker exec -it django_docker bash
 ```
 ```bash
-python3 manage.py createsuperuse
+python3 manage.py createsuperuser
 ```
 
 Теперь настройте порты и фаервол, и приложение будет готово к использованию. 
