@@ -18,8 +18,8 @@ class Item(models.Model):
 
 class Discount(models.Model):
     """
-   Represents a discount that can be applied to an order.
-   """
+    Represents a discount that can be applied to an order.
+    """
     name = models.CharField(max_length=255)
     percent_off = models.PositiveIntegerField()
 
@@ -29,8 +29,8 @@ class Discount(models.Model):
 
 class Tax(models.Model):
     """
-   Represents a discount that can be applied to an order.
-   """
+    Represents a tax that can be applied to an order
+    """
     name = models.CharField(max_length=255)
     percentage = models.DecimalField(max_digits=5, decimal_places=2)
 
